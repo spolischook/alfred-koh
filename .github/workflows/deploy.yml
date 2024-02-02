@@ -29,9 +29,6 @@ jobs:
       with:
         hugo-version: '0.121.1'  # Use the version of Hugo you are using
 
-    - name: Process images
-      run: node ./images_process.js
-
     - name: Build Hugo
       run: hugo --minify --baseURL="https://www.alfred-koh.pp.ua/"
 
