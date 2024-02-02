@@ -1,0 +1,4 @@
+github.com/go-sql-driver/mysql v1.7.1 h1:lUIinVbN1DY0xBg0eMOzmmtGoHwWBbvnWubQUrtU8EI=
+github.com/go-sql-driver/mysql v1.7.1/go.mod h1:OXbVy3sEdcQ2Doequ6Z5BW6fXNQTmx+9S1MCJN5yJMI=
+github.com/mozillazg/go-unidecode v0.1.1 h1:uiRy1s4TUqLbcROUrnCN/V85Jlli2AmDF6EeAXOeMHE=
+github.com/mozillazg/go-unidecode v0.1.1/go.mod h1:fYMdhyjni9ZeEmS6OE/GJHDLsF8TQvIVDwYR/drR26Q=

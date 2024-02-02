@@ -1,0 +1,25 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Alfred Koh music band
+theme:
+  - "hugo-shortcode-gallery"
+menu:
+  main:
+    - name: Главная
+      pageRef: /
+      weight: 20
+    - name: Архив новостей
+      pageRef: /news-archive
+      weight: 27
+    - name: История
+      pageRef: /history
+      weight: 28
+    - name: Состав
+      pageRef: /the-band
+      weight: 30
+    - name: Песни
+      pageRef: /songs
+      weight: 30
+    - name: Галерея
+      pageRef: /gallery
+      weight: 30

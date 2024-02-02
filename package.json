@@ -1,0 +1,21 @@
+{
+  "name": "alfred-koh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./input.css -o ./static/css/style.css -m",
+    "watch": "tailwindcss -i ./input.css -o ./static/css/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.10"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "sharp": "^0.33.0",
+    "tailwindcss": "^3.4.1"
+  }
+}
