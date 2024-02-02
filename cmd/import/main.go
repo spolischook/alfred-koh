@@ -40,7 +40,7 @@ func main() {
 title: {{.Title}}
 date: {{.ImgDate}}
 ---
-{{"{{< gallery match=\"images/*\" sortOrder=\"asc\" rowHeight=\"150\" margins=\"5\" thumbnailResizeOptions=\"600x600 q90 Lanczos\" showExif=true previewType=\"blur\" embedPreview=true loadJQuery=true >}}"}}
+{{"{{< gallery match=\"images/*\" sortOrder=\"asc\" rowHeight=\"150\" margins=\"5\" thumbnailResizeOptions=\"600x600 q90 Lanczos\" previewType=\"blur\" embedPreview=true loadJQuery=true >}}"}}
 `
 
 	// Parse the CSV file
